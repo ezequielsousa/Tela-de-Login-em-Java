@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 public class UsuarioDAO {
 
-    private Connection connection;
+    private final Connection connection;
     Long id;
     String nome;
     String cpf;
